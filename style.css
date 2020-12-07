@@ -358,6 +358,13 @@ div.casos_derechos img.img_derechos {
 /* Aqui terminan estilos divs de pirulo y puma arbol */
 
 
+@media only screen and (max-device-width: 500px) {
+	.parallax1, .parallax2, .parallax3 {
+    background-position: center;
+    background-size: 100%;
+
+  }
+
  	.barraparallax {
     display: none;
   }
